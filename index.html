@@ -1,403 +1,481 @@
 <!doctype html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <style type="text/tailwindcss">
-        @theme {
+      @theme {
         --color-clifford: #da373d;
       }
     </style>
     <title>TCB</title>
-</head>
+  </head>
 
-<body>
-    <header class="bg-success w-11/12 mx-auto my-5 border border-t-4 border-b-4 rounded border-red-400">
-        <div>
-            <p class=" text-center text-white py-8  font-bold">
-                <span class="text-2xl">Government of the People's Republic of Bangladesh.</span> <br>
-                <span class="text-3xl">Trading Corporation of Bangladesh</span> <br>
-                <span class="text-2xl">Ministry of Commerce</span> <br>
-                <span class="text-2xl">www.tcb.gov.bd</span>
-            </p>
-        </div>
+  <body>
+    <header
+      class="bg-success w-11/12 mx-auto my-5 border border-t-4 border-b-4 rounded border-red-400"
+    >
+      <div>
+        <p class="text-center text-white py-8 font-bold">
+          <span class="text-2xl"
+            >Government of the People's Republic of Bangladesh.</span
+          >
+          <br />
+          <span class="text-3xl">Trading Corporation of Bangladesh</span> <br />
+          <span class="text-2xl">Ministry of Commerce</span> <br />
+          <span class="text-2xl">www.tcb.gov.bd</span>
+        </p>
+      </div>
     </header>
     <main>
-        <section class="bg-gray-200 w-4/12 mx-auto py-2 rounded border border-4 border-accent">
-            <h2 class="text-3xl font-bold text-center ">APPLICANT'S COPY</h2>
-        </section>
-        <!-- basic information -->
-        <section class="w-10/12 mx-auto my-5">
-            <div class="overflow-x-auto rounded border border-2 border-black">
-                <h2 class="p-1 mb-2 bg-success text-white rounded"><span class="pl-3">Basic Information</span></h2>
-                <table class="table table-zebra">
-                    <!-- head -->
-                    <thead>
-                        <tr>
-                            <th>Name Of the Post</th>
-                            <th>:</th>
-                            <th>Stenotypist-Cum Computer Operator <br> [সাঁটমুদ্রাক্ষরিক-কাম কম্পিউটার অপারেটর]</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- row 1 -->
-                        <tr class="border">
-                            <th>User ID</th>
-                            <th>:</th>
-                            <th>BSTAECFB</th>
-                        </tr>
-                        <!-- row 2 -->
-                        <tr>
-                            <th>Applicant's Name </th>
-                            <th>:</th>
-                            <th>Md. Abu Taiab</th>
-                        </tr>
-                        <!-- row 3 -->
-                        <tr>
-                            <th>আবেদনকারীর নাম (বাংলায়) </th>
-                            <th>:</th>
-                            <th>মোঃ আবু তৈয়ব</th>
-                        </tr>
-                        <!-- row 4 -->
-                        <tr>
-                            <th>Father's Name </th>
-                            <th>:</th>
-                            <th>Md. Abu Yusuf</th>
-                        </tr>
-                        <!-- row 5 -->
-                        <tr>
-                            <th>পিতার নাম (বাংলায়) </th>
-                            <th>:</th>
-                            <th>মোঃ আবু ইউসুফ</th>
-                        </tr>
-                        <!-- row 6 -->
-                        <tr>
-                            <th>Mother's Name </th>
-                            <th>:</th>
-                            <th>HAFSA BEGUM</th>
-                        </tr>
-                        <!-- row 7 -->
-                        <tr>
-                            <th>মাতার নাম (বাংলায়) </th>
-                            <th>:</th>
-                            <th>হাফসা বেগম</th>
-                        </tr>
-                        <!-- row 8 -->
-                        <tr>
-                            <th>Date of Birth </th>
-                            <th>:</th>
-                            <th>08/11/1995</th>
-                        </tr>
-                        <!-- row 9 -->
-                        <tr>
-                            <th>Nationality </th>
-                            <th>:</th>
-                            <th>Bangladeshi</th>
-                        </tr>
-                        <!-- row 10 -->
-                        <tr>
-                            <th>Religion </th>
-                            <th>:</th>
-                            <th>Islam</th>
-                        </tr>
-                        <!-- row 11 -->
-                        <tr>
-                            <th>Gender </th>
-                            <th>:</th>
-                            <th>Male</th>
-                        </tr>
-                        <!-- row 12 -->
-                        <tr>
-                            <th>National ID </th>
-                            <th>:</th>
-                            <th>Yes</th>
-                        </tr>
-                        <!-- row 13 -->
-                        <tr>
-                            <th>[National ID Number] </th>
-                            <th>:</th>
-                            <th>2387422633</th>
-                        </tr>
-                        <!-- row 14 -->
-                        <tr>
-                            <th>Birth Registration </th>
-                            <th>:</th>
-                            <th>No</th>
-                        </tr>
-                        <!-- row 15 -->
-                        <tr>
-                            <th>Passport ID </th>
-                            <th>:</th>
-                            <th>No</th>
-                        </tr>
-                        <!-- row 16 -->
-                        <tr>
-                            <th>Marital Status </th>
-                            <th>:</th>
-                            <th>Married</th>
-                        </tr>
-                        <!-- row 17 -->
-                        <tr>
-                            <th>[Spouse Name] </th>
-                            <th>:</th>
-                            <th>Mahmuda Rume</th>
-                        </tr>
-                        <!-- row 18 -->
-                        <tr>
-                            <th>Mobile Number :</th>
-                            <th>:</th>
-                            <th>01686-087468</th>
-                        </tr>
-                        <!-- row 19 -->
-                        <tr>
-                            <th>Confirm Mobile Number :</th>
-                            <th>:</th>
-                            <th>01686-087468</th>
-                        </tr>
-                        <!-- row 20 -->
-                        <tr>
-                            <th>Email :</th>
-                            <th>:</th>
-                            <th>abutaiabcse95@gmail.com</th>
-                        </tr>
-                        <!-- row 21 -->
-                        <tr>
-                            <th>Quota :</th>
-                            <th>:</th>
-                            <th>Not Applicable</th>
-                        </tr>
-                        <!-- row 22 -->
-                        <tr>
-                            <th>Departmental Status :</th>
-                            <th>:</th>
-                            <th>Not Applicable</th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        <!-- address -->
-        <section class="w-10/12 mx-auto my-5">
-            <div class="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 grid-cols-2 gap-2">
-                <div class="overflow-x-auto rounded border border-2 border-black">
-                    <h2 class="p-1 mb-2 bg-success text-white rounded"><span class="pl-3">Present Address (বর্তমান
-                            ঠিকানা)</span></h2>
-                    <table class="table table-zebra ">
-                        <!-- head -->
-                        <thead>
-                            <tr>
-                                <th>Care Of</th>
-                                <th>:</th>
-                                <th>Md. Abu Yusuf</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- row 1 -->
-                            <tr>
-                                <th>Vill/Road/House/Flat</th>
-                                <th>:</th>
-                                <td>Borikandi Bhater Char</td>
-                            </tr>
-                            <!-- row 2 -->
-                            <tr>
-                                <th>District</th>
-                                <th>:</th>
-                                <td>Munshiganj</td>
-                            </tr>
-                            <!-- row 3 -->
-                            <tr>
-                                <th>Upazila/P.S</th>
-                                <th>:</th>
-                                <td>Gazaria</td>
-                            </tr>
-                            <!-- row 4 -->
-                            <tr>
-                                <th>Post Office</th>
-                                <th>:</th>
-                                <td>Moddho Bhater Char</td>
-                            </tr>
-                            <!-- row 5 -->
-                            <tr>
-                                <th>Post Code</th>
-                                <th>:</th>
-                                <td>1510</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="overflow-x-auto rounded border border-2 border-black">
-                    <h2 class="p-1 mb-2 bg-success text-white rounded"><span class="pl-3">Permanent Address (স্থায়ী
-                            ঠিকানা)</span></h2>
-                    <table class="table table-zebra ">
-                        <!-- head -->
-                        <thead>
-                            <tr>
-                                <th>Care Of</th>
-                                <th>:</th>
-                                <th>Md. Abu Yusuf</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- row 1 -->
-                            <tr>
-                                <th>Vill/Road/House/Flat</th>
-                                <th>:</th>
-                                <td>Borikandi Bhater Char</td>
-                            </tr>
-                            <!-- row 2 -->
-                            <tr>
-                                <th>District</th>
-                                <th>:</th>
-                                <td>Munshiganj</td>
-                            </tr>
-                            <!-- row 3 -->
-                            <tr>
-                                <th>Upazila/P.S</th>
-                                <th>:</th>
-                                <td>Gazaria</td>
-                            </tr>
-                            <!-- row 4 -->
-                            <tr>
-                                <th>Post Office</th>
-                                <th>:</th>
-                                <td>Moddho Bhater Char</td>
-                            </tr>
-                            <!-- row 5 -->
-                            <tr>
-                                <th>Post Code</th>
-                                <th>:</th>
-                                <td>1510</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+      <section
+        class="bg-gray-200 w-4/12 mx-auto py-2 rounded border border-4 border-accent"
+      >
+        <h2 class="text-3xl font-bold text-center">APPLICANT'S COPY</h2>
+      </section>
+      <!-- basic information -->
+      <section class="w-10/12 mx-auto my-5">
+        <div class="overflow-x-auto rounded border border-2 border-black">
+          <h2 class="p-1 mb-2 bg-success text-white rounded">
+            <span class="pl-3">Basic Information</span>
+          </h2>
+          <table class="table table-zebra">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th>Name Of the Post</th>
+                <th>:</th>
+                <th>
+                  Stenotypist-Cum Computer Operator <br />
+                  [সাঁটমুদ্রাক্ষরিক-কাম কম্পিউটার অপারেটর]
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- row 1 -->
+              <tr class="border">
+                <th>User ID</th>
+                <th>:</th>
+                <th>BSTAECFB</th>
+              </tr>
+              <!-- row 2 -->
+              <tr>
+                <th>Applicant's Name</th>
+                <th>:</th>
+                <th>Md. Abu Taiab</th>
+              </tr>
+              <!-- row 3 -->
+              <tr>
+                <th>আবেদনকারীর নাম (বাংলায়)</th>
+                <th>:</th>
+                <th>মোঃ আবু তৈয়ব</th>
+              </tr>
+              <!-- row 4 -->
+              <tr>
+                <th>Father's Name</th>
+                <th>:</th>
+                <th>Md. Abu Yusuf</th>
+              </tr>
+              <!-- row 5 -->
+              <tr>
+                <th>পিতার নাম (বাংলায়)</th>
+                <th>:</th>
+                <th>মোঃ আবু ইউসুফ</th>
+              </tr>
+              <!-- row 6 -->
+              <tr>
+                <th>Mother's Name</th>
+                <th>:</th>
+                <th>HAFSA BEGUM</th>
+              </tr>
+              <!-- row 7 -->
+              <tr>
+                <th>মাতার নাম (বাংলায়)</th>
+                <th>:</th>
+                <th>হাফসা বেগম</th>
+              </tr>
+              <!-- row 8 -->
+              <tr>
+                <th>Date of Birth</th>
+                <th>:</th>
+                <th>08/11/1995</th>
+              </tr>
+              <!-- row 9 -->
+              <tr>
+                <th>Nationality</th>
+                <th>:</th>
+                <th>Bangladeshi</th>
+              </tr>
+              <!-- row 10 -->
+              <tr>
+                <th>Religion</th>
+                <th>:</th>
+                <th>Islam</th>
+              </tr>
+              <!-- row 11 -->
+              <tr>
+                <th>Gender</th>
+                <th>:</th>
+                <th>Male</th>
+              </tr>
+              <!-- row 12 -->
+              <tr>
+                <th>National ID</th>
+                <th>:</th>
+                <th>Yes</th>
+              </tr>
+              <!-- row 13 -->
+              <tr>
+                <th>[National ID Number]</th>
+                <th>:</th>
+                <th>2387422633</th>
+              </tr>
+              <!-- row 14 -->
+              <tr>
+                <th>Birth Registration</th>
+                <th>:</th>
+                <th>No</th>
+              </tr>
+              <!-- row 15 -->
+              <tr>
+                <th>Passport ID</th>
+                <th>:</th>
+                <th>No</th>
+              </tr>
+              <!-- row 16 -->
+              <tr>
+                <th>Marital Status</th>
+                <th>:</th>
+                <th>Married</th>
+              </tr>
+              <!-- row 17 -->
+              <tr>
+                <th>[Spouse Name]</th>
+                <th>:</th>
+                <th>Mahmuda Rume</th>
+              </tr>
+              <!-- row 18 -->
+              <tr>
+                <th>Mobile Number :</th>
+                <th>:</th>
+                <th>01686-087468</th>
+              </tr>
+              <!-- row 19 -->
+              <tr>
+                <th>Confirm Mobile Number :</th>
+                <th>:</th>
+                <th>01686-087468</th>
+              </tr>
+              <!-- row 20 -->
+              <tr>
+                <th>Email :</th>
+                <th>:</th>
+                <th>abutaiabcse95@gmail.com</th>
+              </tr>
+              <!-- row 21 -->
+              <tr>
+                <th>Quota :</th>
+                <th>:</th>
+                <th>Not Applicable</th>
+              </tr>
+              <!-- row 22 -->
+              <tr>
+                <th>Departmental Status :</th>
+                <th>:</th>
+                <th>Not Applicable</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- address -->
+      <section class="w-10/12 mx-auto my-5">
+        <div
+          class="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 grid-cols-2 gap-2"
+        >
+          <div class="overflow-x-auto rounded border border-2 border-black">
+            <h2 class="p-1 mb-2 bg-success text-white rounded">
+              <span class="pl-3">Present Address (বর্তমান ঠিকানা)</span>
+            </h2>
+            <table class="table table-zebra">
+              <!-- head -->
+              <thead>
+                <tr>
+                  <th>Care Of</th>
+                  <th>:</th>
+                  <th>Md. Abu Yusuf</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr>
+                  <th>Vill/Road/House/Flat</th>
+                  <th>:</th>
+                  <td>Borikandi Bhater Char</td>
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                  <th>District</th>
+                  <th>:</th>
+                  <td>Munshiganj</td>
+                </tr>
+                <!-- row 3 -->
+                <tr>
+                  <th>Upazila/P.S</th>
+                  <th>:</th>
+                  <td>Gazaria</td>
+                </tr>
+                <!-- row 4 -->
+                <tr>
+                  <th>Post Office</th>
+                  <th>:</th>
+                  <td>Moddho Bhater Char</td>
+                </tr>
+                <!-- row 5 -->
+                <tr>
+                  <th>Post Code</th>
+                  <th>:</th>
+                  <td>1510</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="overflow-x-auto rounded border border-2 border-black">
+            <h2 class="p-1 mb-2 bg-success text-white rounded">
+              <span class="pl-3">Permanent Address (স্থায়ী ঠিকানা)</span>
+            </h2>
+            <table class="table table-zebra">
+              <!-- head -->
+              <thead>
+                <tr>
+                  <th>Care Of</th>
+                  <th>:</th>
+                  <th>Md. Abu Yusuf</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr>
+                  <th>Vill/Road/House/Flat</th>
+                  <th>:</th>
+                  <td>Borikandi Bhater Char</td>
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                  <th>District</th>
+                  <th>:</th>
+                  <td>Munshiganj</td>
+                </tr>
+                <!-- row 3 -->
+                <tr>
+                  <th>Upazila/P.S</th>
+                  <th>:</th>
+                  <td>Gazaria</td>
+                </tr>
+                <!-- row 4 -->
+                <tr>
+                  <th>Post Office</th>
+                  <th>:</th>
+                  <td>Moddho Bhater Char</td>
+                </tr>
+                <!-- row 5 -->
+                <tr>
+                  <th>Post Code</th>
+                  <th>:</th>
+                  <td>1510</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 
-            </div>
-        </section>
+      <!-- Education information -->
+      <section class="w-10/12 mx-auto my-5">
+        <div class="overflow-x-auto rounded border border-2 border-black">
+          <h2 class="p-1 mb-2 bg-success text-white rounded">
+            <span class="pl-3">Education Information</span>
+          </h2>
+          <table class="table table-zebra">
+            <!-- head -->
+            <thead>
+              <tr class="border">
+                <th>Examination</th>
+                <th>Board/University</th>
+                <th>Roll</th>
+                <th>Result</th>
+                <th>Group/Subject</th>
+                <th>Year</th>
+                <th>Durantion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- row 1 -->
+              <tr>
+                <td>S.S.C</td>
+                <td>Dhaka</td>
+                <td>130244</td>
+                <td>GPA 4.50 (out of 5)</td>
+                <td>Science</td>
+                <td>2011</td>
+                <td>N/A</td>
+              </tr>
+              <!-- row 2 -->
+              <tr>
+                <td>H.S.C</td>
+                <td>Dhaka</td>
+                <td>123492</td>
+                <td>GPA 3.70 (out of 5)</td>
+                <td>Science</td>
+                <td>2013</td>
+                <td>N/A</td>
+              </tr>
+              <!-- row 3 -->
+              <tr>
+                <td>B.Sc Engineering</td>
+                <td>Soutdest University</td>
+                <td>N/A</td>
+                <td>GPA 3.16 (out of 4)</td>
+                <td>Computer Science & Engineering</td>
+                <td>2017</td>
+                <td>04</td>
+              </tr>
+              <!-- row 4 -->
+              <tr>
+                <td>M.Sc Engineering</td>
+                <td>Deffodil International University</td>
+                <td>N/A</td>
+                <td>GPA 3.61 (out of 4)</td>
+                <td>Computer Science & Engineering</td>
+                <td>2022</td>
+                <td>01</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-        <!-- Education information -->
-        <section class="w-10/12 mx-auto my-5">
-            <div class="overflow-x-auto rounded border border-2 border-black">
-                <h2 class="p-1 mb-2 bg-success text-white rounded"><span class="pl-3">Education Information</span></h2>
-                <table class="table table-zebra">
-                    <!-- head -->
-                    <thead>
+      <!-- Job experience -->
+      <section class="w-10/12 mx-auto my-5">
+        <div class="overflow-x-auto rounded border border-2 border-black">
+          <h2 class="p-1 mb-2 bg-success text-white rounded">
+            <span class="pl-3">Job Experiences</span>
+          </h2>
+          <table class="table table-zebra">
+            <!-- head -->
+            <thead>
+              <tr class="border">
+                <th>SL No.</th>
+                <th>Employed On</th>
+                <th>Organization</th>
+                <th>Designation</th>
+                <th>Address</th>
+                <th>Job Desc</th>
+                <th>Job Length</th>
+                <th>Total Exp</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- row 1 -->
+              <tr>
+                <td>1</td>
+                <td>Private Organization</td>
+                <td>Global Insurance PLC</td>
+                <td>Manager</td>
+                <td>
+                  Al-Razi Complex (12th floor), 166-167, Shaheed Syed Nazrul
+                  Islam Sarani, Purana Paltan,Dhaka-1000.
+                </td>
+                <td>
+                  Software Engineer & Oracle Developer with 2 years 4 months of
+                  experience in enterprise application development, database
+                  management, and IT systems. Skilled in oracle DB, Forms,
+                  Reports, Apex, Jasper Reports, PL/SQL and maintaining
+                  enterprise business software.
+                </td>
+                <td>06/01/2024 to 11/20/2026</td>
+                <td>2 Year(s) 5 Month(s) 20 Day(s)</td>
+              </tr>
+              <!-- row 2 -->
+              <tr>
+                <td>2</td>
+                <td>Private Organization</td>
+                <td>Paramount Insurance PLC</td>
+                <td>Deputy Manager</td>
+                <td>
+                  House # 22 (Level-3 & 4) Road # 113/A, Gulshan-2, Dhaka-1212,
+                  Bangladesh.
+                </td>
+                <td>
+                  Managed ERP software & oracle database operations, including
+                  forms/reports development, server monitoring, and E-Money
+                  Receipt troubleshooting. Performed daily data backup,
+                  installed/configured IT systems, and provided technical,
+                  network and ERP support for head office and multiple branches.
+                </td>
+                <td>02/23/2022 to 05/31/2024</td>
+                <td>2 Year(s) 3 Month(s) 9 Day(s)</td>
+              </tr>
+              <!-- row 3 -->
+              <tr>
+                <td>3</td>
+                <td>Private Organization</td>
+                <td>Confidence Software Limited</td>
+                <td>Asst.Programmer</td>
+                <td>
+                  Paramount Concord (2nd Floor), 9,9/1 & 9/2 Hatkhola Road,
+                  Dhaka-1203
+                </td>
+                <td>
+                  Handled oracle database installation, configuration, and
+                  troubleshooting. developed and maintained enterprise
+                  applications and reports using oracle Forms, Reports, Apex,
+                  Jasper Reports, SQL, and PL/SQL. Provided application support,
+                  customization and end-user troubleshooting.
+                </td>
+                <td>01/01/2018 to 31/21/2022</td>
+                <td>4 Year(s) 1 Month(s) 0 Day(s)</td>
+              </tr>
+              <!-- row 4 -->
+              <tr>
+                <th colspan="4">Total Experience</th>
+                <th colspan="4">8 Year(s) 9 Month(s) 29 Day(s)</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-                        <tr class="border">
-                            <th>Examination</th>
-                            <th>Board/University</th>
-                            <th>Roll</th>
-                            <th>Result</th>
-                            <th>Group/Subject</th>
-                            <th>Year</th>
-                            <th>Durantion</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- row 1 -->
-                        <tr>
-                            <td>S.S.C</td>
-                            <td>Dhaka</td>
-                            <td>130244</td>
-                            <td>GPA 4.50 (out of 5)</td>
-                            <td>Science</td>
-                            <td>2011</td>
-                            <td>N/A</td>
-                        </tr>
-                        <!-- row 2 -->
-                        <tr>
-                            <td>H.S.C</td>
-                            <td>Dhaka</td>
-                            <td>123492</td>
-                            <td>GPA 3.70 (out of 5)</td>
-                            <td>Science</td>
-                            <td>2013</td>
-                            <td>N/A</td>
-                        </tr>
-                        <!-- row 3 -->
-                        <tr>
-                            <td>B.Sc Engineering</td>
-                            <td>Soutdest University</td>
-                            <td>N/A</td>
-                            <td>GPA 3.16 (out of 4)</td>
-                            <td>Computer Science & Engineering</td>
-                            <td>2017</td>
-                            <td>04</td>
-                        </tr>
-                        <!-- row 4 -->
-                        <tr>
-                            <td>M.Sc Engineering</td>
-                            <td>Deffodil International University</td>
-                            <td>N/A</td>
-                            <td>GPA 3.61 (out of 4)</td>
-                            <td>Computer Science & Engineering</td>
-                            <td>2022</td>
-                            <td>01</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <!-- Job experience -->
-        <section class="w-10/12 mx-auto my-5">
-            <div class="overflow-x-auto rounded border border-2 border-black">
-                <h2 class="p-1 mb-2 bg-success text-white rounded"><span class="pl-3">Job Experiences</span></h2>
-                <table class="table table-zebra">
-                    <!-- head -->
-                    <thead>
-
-                        <tr class="border">
-                            <th>SL No.</th>
-                            <th>Employed On</th>
-                            <th>Organization</th>
-                            <th>Designation</th>
-                            <th>Job Desc</th>
-                            <th>Job Length</th>
-                            <th>Total Exp</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- row 1 -->
-                        <tr>
-                            <td>1</td>
-                            <td>Private Organization</td>
-                            <td>Global Insurance PLC</td>
-                            <td>GPA 4.50 (out of 5)</td>
-                            <td>Science</td>
-                            <td>2011</td>
-                            <td>N/A</td>
-                        </tr>
-                        <!-- row 2 -->
-                        <tr>
-                            <td>2</td>
-                            <td>Private Organization</td>
-                            <td>Paramount Insurance PLC</td>
-                            <td>GPA 3.70 (out of 5)</td>
-                            <td>Science</td>
-                            <td>2013</td>
-                            <td>N/A</td>
-                        </tr>
-                        <!-- row 3 -->
-                        <tr>
-                            <td>3</td>
-                            <td>Private Organization</td>
-                            <td>Confidence Software Limite</td>
-                            <td>GPA 3.16 (out of 4)</td>
-                            <td>Computer Science & Engineering</td>
-                            <td>2017</td>
-                            <td>04</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+      <!-- footer -->
+      <footer class="w-10/12 mx-auto my-10 flex justify-between items-center">
+        <div>
+          <a href="#" download
+            ><img
+              class="w-40"
+              src="images/Taiab Update Photo (300x300).jpg"
+              alt=""
+          /></a>
+          <p>Personal Photo</p>
+        </div>
+        <div>
+          <a href="#" download
+            ><img src="images/final sing for gov job (300x80).jpg" alt=""
+          /></a>
+          <p>Application Singnature</p>
+        </div>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>
